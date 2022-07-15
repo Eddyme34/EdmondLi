@@ -5,7 +5,7 @@
     --light-color: #fff;
     --dark-color: #171721;
     --dark-color-lighter: #7E8299;
-    --accent-color: #22beaa;
+    --accent-color: #7dc8e6;
     --body-background-color: #202028;
     --border-bottom-color: rgba(255,255,255,.05);
     --transparent-button-color: rgba(255,255,255,.1);
@@ -96,7 +96,7 @@ i{
 /* Floating background image */
 .floating-background-image{
     width: 100%;
-    height: 45rem;
+    height: 85rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -229,7 +229,7 @@ i{
 }/*all titles like control panel, reliable servers, quick actions, etc.*/
 
 .independent-title{
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-large);
     color: var(--light-color);
     padding: 2.5rem 0 1.25rem;
 }/*control panel text*/
@@ -486,7 +486,7 @@ i{
      width: auto;
      padding: 16px;
      margin-top: -22px;
-     color: white;
+     color: black;
      font-weight: bold;
      font-size: 18px;
      transition: 0.6s ease;
@@ -500,7 +500,7 @@ i{
   }
   /* On hover, add a black background color with a little bit seethrough */
   .prev:hover, .next:hover {
-     background-color: rgba(0,0,0,0.8);
+     background-color: gray;
   }
   /* Caption text */
   .text {
